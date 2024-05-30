@@ -1,2 +1,3 @@
-Quando utilizar o gráfico de pizza?
-Um gráfico de pizza se mostra bem utilizado quando usamos em variáveis categóricas, ou seja, estamos tentando mostrar como é composto aquele conjunto de dados ou melhor os diferentes tipos de dados que existem no conjunto, por exemplo:
+"Os gráficos são representações que facilitam a análise de dados, os quais costumam ser dispostos em tabelas quando se realiza pesquisas estatísticas. Eles trazem muito mais praticidade, principalmente quando os dados não são discretos, ou seja, quando são números consideravelmente grandes. Além disso, os gráficos também apresentam de maneira evidente os dados em seu aspecto temporal."
+ferramenta:
+https://jupyter.org/
