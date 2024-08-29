@@ -1,0 +1,21 @@
+import matplotlib.pyplot as plt
+
+# Dados para o gráfico
+x = [1, 2, 3, 4, 5]
+y = [2, 3, 5, 7, 11]
+
+# Criar o gráfico
+plt.figure(figsize=(8, 5))  # Define o tamanho da figura
+plt.plot(x, y, marker='o', linestyle='-', color='b', label='Dados')  # Plota a linha com marcadores
+
+# Adicionar título e rótulos aos eixos
+plt.title('Gráfico de Linha Simples')
+plt.xlabel('Eixo X')
+plt.ylabel('Eixo Y')
+
+# Adicionar uma legenda
+plt.legend()
+
+# Mostrar o gráfico
+plt.grid(True)  # Adiciona uma grade para facilitar a visualização
+plt.show()
