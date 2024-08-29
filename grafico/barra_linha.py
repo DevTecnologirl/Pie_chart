@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+# Dados para o gráfico
+categories = ['Jan', 'Feb', 'Mar', 'Apr', 'May']
+values = [10, 20, 15, 25, 30]
+line_values = [5, 15, 20, 10, 25]
+# Criar a figura e os eixos
+fig, ax1 = plt.subplots(figsize=(10, 6))
+# Criar o gráfico de barras
+bars = ax1.bar(categories, values, color='skyblue', label='Valores das Barras')
+# Criar um segundo eixo para a linha
+ax2 = ax1.twinx()
+line = ax2.plot(categories, line_values, color='orange', marker='o', linestyle='-', label='Valores da Linha')
+# Adicionar título e rótulos
+ax1.set_title('Gráfico de Barras com Linha')
+ax1.set_xlabel('Meses')
+ax1.set_ylabel('Valores das Barras', color='skyblue')
+ax2.set_ylabel('Valores da Linha', color='orange')
+# Adicionar legendas
+ax1.legend(loc='upper left')
+ax2.legend(loc='upper right')
+# Mostrar o gráfico
+plt.grid(True)
+plt.show()
